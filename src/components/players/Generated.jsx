@@ -3,6 +3,7 @@ import { playersData } from '../common/Helper'
 import Image from 'next/image'
 import CommonHeader from './CommonHeader'
 import { TabArrowLeft, TabArrowRight } from '../common/Icon'
+import NavBar from '../common/NavBar'
 
 const Generated = () => {
     return (
@@ -21,7 +22,7 @@ const Generated = () => {
                                                 <p className=' font-medium text-sm-13 leading-123 text-dark-white'>{obj.description}</p>
                                             </div>
                                             <div className=' flex items-center gap-2'>
-                                                <Image src={obj.img} alt='coin' height={32} width={32} />
+                                                <Image src="/assets/images/svg/coinsImg.svg" alt='coin' height={32} width={32} />
                                                 <p className=' font-medium text-base lh-[19.36px] text-light-white'>{obj.cost}</p>
                                             </div>
                                         </div>
@@ -61,7 +62,6 @@ const Generated = () => {
                         </div>
                     </div>
                 </div>
-
             </div>
         </>
     )
