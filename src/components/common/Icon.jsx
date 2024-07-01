@@ -49,6 +49,8 @@ export const Youtube = () => {
     </svg>
   );
 };
+
+// =====================================players==========================================
 export const Nonrepeat = () => {
   return (
     <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -76,12 +78,11 @@ export const Timer = () => {
 export const Saturated = () => {
   return (
     <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M19.6319 5.81162V3.99268M24.4089 7.09782L25.695 5.81162M25.7075 11.8748H27.5264" stroke="#F4F4F4" className="group-hover:stroke-[#787878] duration-300" stroke-width="1.92" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M26.2553 17.4437V21.2474C26.2553 24.8033 23.7376 27.0327 20.1747 27.0327H10.5606C6.99768 27.0327 4.47998 24.8139 4.47998 21.2474V11.0449C4.47998 7.47723 6.99768 5.25732 10.5606 5.25732H13.7747" stroke="#F4F4F4" className="group-hover:stroke-[#787878] duration-300" stroke-width="1.92" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M15.3875 11.2686H20.2381V16.1191" stroke="#F4F4F4" className="group-hover:stroke-[#787878] duration-300" stroke-width="1.92" stroke-linecap="round" stroke-linejoin="round" />
-      <path d="M4.47375 17.7526C5.26431 17.8747 6.07427 17.938 6.89901 17.938C12.218 17.938 16.9219 15.3037 19.7768 11.2686" stroke="#F4F4F4" className="group-hover:stroke-[#787878] duration-300" stroke-width="1.92" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M19.6319 5.81162V3.99268M24.4089 7.09782L25.695 5.81162M25.7075 11.8748H27.5264" stroke="#F4F4F4" stroke-width="1.92" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M26.2553 17.4437V21.2474C26.2553 24.8033 23.7376 27.0327 20.1747 27.0327H10.5606C6.99768 27.0327 4.47998 24.8139 4.47998 21.2474V11.0449C4.47998 7.47723 6.99768 5.25732 10.5606 5.25732H13.7747" stroke="#F4F4F4" stroke-width="1.92" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M15.3875 11.2686H20.2381V16.1191" stroke="#F4F4F4" stroke-width="1.92" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M4.47375 17.7526C5.26431 17.8747 6.07427 17.938 6.89901 17.938C12.218 17.938 16.9219 15.3037 19.7768 11.2686" stroke="#F4F4F4" stroke-width="1.92" stroke-linecap="round" stroke-linejoin="round" />
     </svg>
-
   );
 };
 export const Cost = () => {
