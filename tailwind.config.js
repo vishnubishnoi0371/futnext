@@ -8,6 +8,7 @@ module.exports = {
   theme: {
     extend: {
       fontSize: {
+        "xs":"8px",
         "sm-13": "13px",
         "3xxl": "32px",
         "4xxl": "40px",
@@ -21,6 +22,7 @@ module.exports = {
       },
       backgroundImage: {
         "font-gradient": 'linear-gradient(90deg, #00CA55 20.69%, #C3FF5A 58.36%)',
+        solution:"/assets/images/png/solution-bg.png"
       },
       colors: {
         "light-gray": "#e4e4e4",
@@ -44,6 +46,8 @@ module.exports = {
         "eerie-black": "#17191b",
         "vampire-black": "#0a0b0c",
         "light-sky": "#61CF8F",
+        "light-green": "#00F474",
+        
 
       },
       boxShadow: {

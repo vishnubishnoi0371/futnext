@@ -123,6 +123,18 @@ export const UtCoin = () => {
     </svg>
   )
 }
+export const Money = () => {
+  return (
+    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M26.8659 19.0679C26.8659 20.862 24.0469 22.3175 20.5703 22.3175C17.0936 22.3175 14.2759 20.862 14.2759 19.0679" stroke="#F4F4F4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M11.4309 16.1823C7.95423 16.1823 5.13525 14.7281 5.13525 12.9326" stroke="#F4F4F4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M5.13525 7.25V18.6165C5.13525 20.412 7.95423 21.8661 11.4309 21.8661" stroke="#F4F4F4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M11.4309 10.4993C7.95423 10.4993 5.13525 9.04508 5.13525 7.24965C5.13525 5.45553 7.95423 4 11.4309 4C14.9076 4 17.7265 5.45553 17.7265 7.24965" stroke="#F4F4F4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M26.8659 13.3857V24.7523C26.8659 26.5476 24.0469 28.0019 20.5703 28.0019C17.0936 28.0019 14.2759 26.5476 14.2759 24.7523V13.3857" stroke="#F4F4F4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M26.8659 13.3854C26.8659 15.1795 24.0469 16.6351 20.5703 16.6351C17.0936 16.6351 14.2759 15.1795 14.2759 13.3854C14.2759 11.5913 17.0936 10.1357 20.5703 10.1357C24.0469 10.1357 26.8659 11.5913 26.8659 13.3854Z" stroke="#F4F4F4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    </svg>
+  );
+};
 
 // ====================================== SBC Indivigual ============================================//
 export const Nonrepeat = () => {
