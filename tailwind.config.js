@@ -13,23 +13,17 @@ module.exports = {
         "3xxl": "32px",
         "4xxl": "40px",
       },
-      borderWidth: {
-        '1': '1px', // Fixed naming convention for border width
-      },
-      borderImageSource: {
-        'gradient': 'linear-gradient(182.94deg, #00CA55 -14.15%, rgba(0, 202, 85, 0) 64.09%)',
-      },
-      borderImageSlice: {
-        'gradient': '1',
-      },
       lineHeight: {
         121: "121%",
         100: "100%",
         123: "123%",
         155: "155%",
+        178: "178%",
         200: "200%",
       },
       backgroundImage: {
+        'gradient-green': 'linear-gradient(180deg, #00CA55 0%, rgba(0, 202, 85, 0) 100%)',
+
         "font-gradient": 'linear-gradient(90deg, #00CA55 20.69%, #C3FF5A 58.36%)',
         "border-gradient": "linear-gradient(334.48deg, rgba(0, 202, 85, 0) 18.34%, #00CA55 109.47%)",
       },
@@ -59,6 +53,7 @@ module.exports = {
         "vampire-black": "#0a0b0c",
         "light-gray1": "#6B6B6B",
         "dark-green": "#02421D",
+        "light-sky": "#61CF8F",
       },
       boxShadow: {
         cardShadow: "0 5px 5px 0 #DEDEDE",

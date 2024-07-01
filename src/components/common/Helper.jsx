@@ -1,4 +1,4 @@
-import { Insta, TikTok, Twiter, Discord, Youtube } from "./icon";
+import { Insta, TikTok, Twiter, Discord, Youtube } from "./Icon";
 import { Multi, Star, UtCoin } from "./Icon";
 
   // =========NavData==========//
