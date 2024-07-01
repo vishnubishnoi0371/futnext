@@ -17,26 +17,26 @@ const CommonHeader = () => {
                             <p className='text-base font-normal text-light-gray leading-200'>Earn 1 of 3 rare gold players rated 85 overall or higher</p>
                             <div className='my-6 gap-2 flex flex-col max-w-[270px]'>
                                 <div className='flex items-center gap-2 group'>
-                                    <Nonrepeat  />
+                                    <Nonrepeat />
                                     <p className='text-light-white text-base group-hover:opacity-60 duration-300 font-normal'>Non-Repeatable</p>
                                 </div>
                                 <div className='flex items-center gap-2 group'>
-                                    <Timer  />
+                                    <Timer />
                                     <p className='text-light-white text-base group-hover:opacity-60 duration-300 font-normal'>6 Days Remaining</p>
                                 </div>
                                 <div className='flex items-center gap-2 group'>
-                                    <Cost  />
+                                    <Cost />
                                     <p className='text-light-white text-base group-hover:opacity-60 duration-300 font-normal'>13,000 Cost</p>
                                 </div>
                                 <div className='flex items-center gap-2 group'>
-                                    <Saturated  />
+                                    <Saturated />
                                     <p className='text-light-white text-nowrap text-base group-hover:opacity-60 duration-300 font-normal'>14,708 Solutions Generated</p>
                                 </div>
                             </div>
                             <PrimaryButton className='text-sm font-normal text-light-white' text="Generate Unique Solutions" />
                         </div>
                         <div className=' w-[4/12]'>
-                            <Image src="/assets/images/webp/globalPlate.png" alt='global' width={320} height={356}/>
+                            <Image src="/assets/images/webp/globalPlate.png" alt='global' width={320} height={356} />
                         </div>
                     </div>
                 </div>

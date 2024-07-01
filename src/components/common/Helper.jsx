@@ -1,4 +1,4 @@
-import coin from '../../../public/assets/images/svg/' // EXTAND PLAYERS BRANCH
+import coin from '../../../public/assets/images/svg/coinsImg.svg' // EXTAND PLAYERS BRANCH
 
 export const navData = [
   {
