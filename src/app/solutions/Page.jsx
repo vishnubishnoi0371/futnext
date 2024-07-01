@@ -1,5 +1,5 @@
 import React from 'react'
-import Solution from '../components/common/solutions/Solution'
+import Solution from '../../components/solutions/Solution'
 
 const Page = () => {
   return (

@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
-import { LeftArrow } from '../icon'
+import { LeftArrow } from '../../app/components/common/icon'
 
 const Solution = () => {
   return (
