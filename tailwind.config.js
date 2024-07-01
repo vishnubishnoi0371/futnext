@@ -19,6 +19,7 @@ module.exports = {
       colors: {
         "light-gray": "#e4e4e4",
         "light-white": "#f4f4f4",
+        "dark-white": "#b1b1b1", // EXTEND PLAYERS BRANCH
         "old-silver": "#838383",
         malachite: "#00ca55",
         pigment: "#18a353",
@@ -33,6 +34,7 @@ module.exports = {
         gray: "#7f7f7f",
         "moss-green": "#35644a",
         "eerie-black": "#17191b",
+        "vampire-black": "#0a0b0c",
 
       },
       boxShadow: {
