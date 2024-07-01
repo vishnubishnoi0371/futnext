@@ -33,7 +33,7 @@ module.exports = {
         "light-white": "#f4f4f4",
         "dark-white": "#b1b1b1",
         "old-silver": "#838383",
-        "malachite": "#00ca55", // Corrected color name to lowercase
+        "malachite": "#00ca55", 
         "pigment": "#18a353",
         "pigment_green": "#18A352",
         "sonic-silver": "#787878",
@@ -43,7 +43,7 @@ module.exports = {
         "green": "#032e16",
         "darkgreen": "#49dd87",
         "silver-sand": "#c3c3c3",
-        "purple": "#de8eff", // Corrected color name to lowercase
+        "purple": "#de8eff", 
         "mustard": "#cab600",
         "black-olive": "#3b3c3d",
         "gray": "#7f7f7f",

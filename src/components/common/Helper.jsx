@@ -1,5 +1,4 @@
-import { Insta, TikTok, Twiter, Discord, Youtube } from "./Icon";
-import { Multi, Star, UtCoin } from "./Icon";
+import { Insta, TikTok, Twiter, Discord, Youtube, Multi, Star } from "./Icon";
 
   // =========NavData==========//
 
@@ -10,6 +9,10 @@ export const navData = [
     },
     {
       name: "SBC",
+      to: "#ourservices",
+    },
+    {
+      name: "Evolutions",
       to: "#ourservices",
     },
  
@@ -67,7 +70,7 @@ export const rateingList = [
     number: "4-3-3",
   },
   {
-    icon: <UtCoin />,
+    icon: '',
     number: "13,000 Cost",
   },
 ];

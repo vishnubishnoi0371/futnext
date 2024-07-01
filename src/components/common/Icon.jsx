@@ -1,3 +1,8 @@
+export const ArrowIcon = (
+  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M8.5 5L15.5 12L8.5 19" stroke="#F4F4F4" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+  </svg>
+);
 export const TikTok = (
   <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
     <path fillRule="evenodd" clipRule="evenodd" d="M16 5C9.92439 5 5 9.92439 5 16C5 22.0756 9.92439 27 16 27C22.0756 27 27 22.0756 27 16C27 9.92439 22.0756 5 16 5ZM3 16C3 8.81983 8.81983 3 16 3C23.1801 3 29 8.81983 29 16C29 23.1801 23.1801 29 16 29C8.81983 29 3 23.1801 3 16Z" fill="#F4F4F4"/>
