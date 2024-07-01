@@ -47,6 +47,7 @@ module.exports = {
         "eerie-black": "#17191b",
         "vampire-black": "#0a0b0c",
         "light-sky": "#61CF8F",
+        
 
       },
       boxShadow: {

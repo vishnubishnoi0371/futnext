@@ -159,3 +159,13 @@ export const EyeOpen = () => {
     );
   };
 
+  export const SearchIcon = () => {
+    return (
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M10.3828 18.3023C14.4809 18.3023 17.803 14.9802 17.803 10.8821C17.803 6.78405 14.4809 3.46191 10.3828 3.46191C6.28478 3.46191 2.96265 6.78405 2.96265 10.8821C2.96265 14.9802 6.28478 18.3023 10.3828 18.3023Z" stroke="#7F7F7F" stroke-width="1.38462" stroke-linecap="square"/>
+<path d="M15.4495 16.3457L19.6527 20.538" stroke="#7F7F7F" stroke-width="1.38462" stroke-linecap="square"/>
+</svg>
+
+    )
+  }
+  
