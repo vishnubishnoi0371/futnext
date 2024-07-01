@@ -3,6 +3,7 @@ import React from 'react'
 import bg from "../../../../public/assets/images/webp/loginBg.webp"
 import Image from 'next/image'
 import Inputs from './Inputs'
+import { CommonButton } from '../commonbtn'
 const LoginPage = () => {
     return (
         <div className='min-h-screen bg-vampire-black flex flex-col md:flex-row'>
@@ -39,6 +40,12 @@ const LoginPage = () => {
                      inputuse="Password" />
                      </div>
                      <a href="" className='font-normal text-xs leading-121 text-malachite tracking-tighter mt-2 after:w-full after:absolute relative after:h-[1px] after:left-0 after:bottom-[-.5px] after:bg-malachite hover:after:w-0 hover:after:left-[50%] after:duration-300 after:ease-in-out'>Forgot Password?</a>
+                     <CommonButton
+                     text="Login"
+                     className="bg-malachite py-4 px-6 text-light-white w-full flex justify-center mt-[21px] max-h-[48px]"
+                     />
+                     <p className='font-normal text-xs leading-121 tracking-tighter text-white w-[72px] h-[32px] relative z-[2] bg-vampire-black mx-auto flex items-center justify-center mt-6'>or</p>
+                     <hr className='h-[2px] w-full bg-light-white opacity-50 -translate-y-4 relative z-[1' />
                 </div>
             </div>
         </div>
