@@ -53,6 +53,9 @@ module.exports = {
         cardShadow: "0 5px 5px 0 #DEDEDE",
         xs: "0 0 11px rgba(33,33,33,.2)",
       },
+      lineHeight:{
+        121: '121%'
+      },
     },
   },
   plugins: [],
