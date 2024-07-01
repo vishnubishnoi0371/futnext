@@ -17,7 +17,7 @@ const NavBar = () => {
 
   return (
     <nav className="relative !bg-green">
-      <div className="max-w-[1600px] mx-auto px-3">
+      <div className="max-w-[1600px] py-8 mx-auto px-3">
         <div className="lg:px-[50px] p-2 sm:p-[15px] lg:py-[11px] flex justify-between items-center">
           <div className="flex gap-[78px]">
             <a href="#" className="relative z-[51]">

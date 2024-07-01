@@ -1,4 +1,5 @@
-import { Insta, TikTok, Twiter, Discord, Youtube } from "./icon";
+import { Insta, TikTok, Twiter, Discord, Youtube } from "./Icon";
+import { Multi, Star, UtCoin } from "./Icon";
 
   // =========NavData==========//
 
@@ -24,7 +25,7 @@ export const navData = [
   // =========FooterData==========//
 export const footerData = [
     {
-      name: "SBC’s",
+      name: "SBC's",
       to: "#aboutus",
     },
     {
@@ -53,3 +54,20 @@ export const footerData = [
     { name: 'YouTube', url: 'https://www.youtube.com/', icon: Youtube },
   ];
   
+
+
+// ================================= SOLUTION ============================================//
+export const rateingList = [
+  {
+    icon: <Star />,
+    number: "93.08",
+  },
+  {
+    icon: <Multi />,
+    number: "4-3-3",
+  },
+  {
+    icon: <UtCoin />,
+    number: "13,000 Cost",
+  },
+];
