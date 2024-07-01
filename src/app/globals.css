@@ -5,16 +5,5 @@
 
 body {
   font-family: "Inter", sans-serif !important;
-}
-.bg-login {
-  background-image: url("../../public/assets/images/webp/newsletterImg.png") !important;
-  height: 399px !important;
-}
-
-.text_n {
-  background-image: url("../../public/assets/images/webp/newsletterImg.png");
-  background-position: center;
-  background-size: cover;
-  height: 100px;
-  width: 100px;
+  background-image:url('../../public/assets/images/svg/pageLogo.svg');
 }
