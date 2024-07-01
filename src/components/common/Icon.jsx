@@ -137,3 +137,18 @@ export const ButtonArrow = () => {
     </svg>
   );
 };
+export const TabArrowLeft = () => {
+  return (
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M14.5385 18.4617L8.07693 12.0001L14.5385 5.53857" stroke="white" className="group-hover:stroke-[#585A5C]" stroke-width="1.38462" stroke-linecap="square" />
+    </svg>
+  );
+};
+export const TabArrowRight = () => {
+  return (
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M9.46154 5.53835L15.9231 11.9999L9.46154 18.4614" stroke="white" className="group-hover:stroke-[#585A5C]" stroke-width="1.38462" stroke-linecap="square" />
+    </svg>
+
+  );
+};

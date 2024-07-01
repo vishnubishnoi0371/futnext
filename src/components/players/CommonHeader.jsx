@@ -1,7 +1,7 @@
 "use client"
-import { Cost, Nonrepeat, Saturated, Timer } from './Icon'
-import { PrimaryButton } from './PrimaryButton'
-import NavBar from './NavBar'
+import { Cost, Nonrepeat, Saturated, Timer } from '../common/Icon'
+import { PrimaryButton } from '../common/PrimaryButton'
+import NavBar from '../common/NavBar'
 import Image from 'next/image'
 
 const CommonHeader = () => {
