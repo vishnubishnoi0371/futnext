@@ -25,7 +25,7 @@ export const navData = [
   // =========FooterData==========//
 export const footerData = [
     {
-      name: "SBC’s",
+      name: "SBC's",
       to: "#aboutus",
     },
     {
