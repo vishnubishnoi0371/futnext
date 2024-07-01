@@ -33,7 +33,7 @@ const NavBar = () => {
               {navData.slice(0, 4).map((obj, i) => (
                 <li key={i}>
                   <a
-                    className="font-inter font-normal hover:bg-moss-green rounded-[36px] p-[7.5px_16px] text-sm block hover:text-gold duration-300 text-light-white relative z-[1] after:absolute after:w-0 after:h-[2px] after:left-[50%] after:bottom-[-2px] hover:after:left-0 hover:after:w-full after:bg-gold after:duration-300 after:z-[-1]"
+                    className="font-inter font-normal hover:bg-moss-green rounded-[36px] p-[7.5px_16px] text-xs lg:text-sm block hover:text-gold duration-300 text-light-white relative z-[1] after:absolute after:w-0 after:h-[2px] after:left-[50%] after:bottom-[-2px] hover:after:left-0 hover:after:w-full after:bg-gold after:duration-300 after:z-[-1]"
                     href={obj.to}
                   >
                     {obj.name}
@@ -45,7 +45,7 @@ const NavBar = () => {
           <div className="hidden sm:block">
             <div className="flex items-center gap-4">
               <CommonButton className="flex p-[14px_20px] md:p-[16px_24px] justify-center border border-white hover:border-light-sky text-white hover:text-green bg-transparent hover:bg-light-sky" text="Discord" />
-              <CommonButton className="flex p-[14px_20px] md:p-[16px_24px] justify-center border border-white hover:border-light-sky text-white hover:text-green bg-transparent hover:bg-light-sky" text="Login" />
+              <CommonButton className="p-[14px_20px] md:p-[16px_24px] border border-white hover:border-light-sky text-white hover:text-green bg-transparent hover:bg-light-sky" text="Login" />
             </div>
           </div>
           <button

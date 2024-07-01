@@ -22,6 +22,7 @@ module.exports = {
       },
       colors: {
         "light-gray": "#e4e4e4",
+        "dim-gray": "#6b6b6b",
         "light-white": "#f4f4f4",
         "old-silver": "#838383",
         malachite: "#00ca55",

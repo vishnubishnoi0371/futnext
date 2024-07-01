@@ -50,7 +50,7 @@ const Footer = () => {
 </div>
 
             </div>
-            <ul className="flex gap-5 justify-center md:justify-start sm:gap-8 flex-wrap items-center">
+            <ul className="flex  justify-center md:justify-start lg:gap-8 flex-wrap items-center">
               {footerData.slice(0, 5).map((obj, i) => (
                 <li key={i} className="p-[7.5px_16px]">
                   <a
