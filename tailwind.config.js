@@ -15,17 +15,21 @@ module.exports = {
       lineHeight: {
         121: "121%",
         100: "100%",
-       
+        123: "123%", //EXTAND PLAYERS BRANCH
+        155: "155%", //EXTAND PLAYERS BRANCH
+        200: "200%", //EXTAND PLAYERS BRANCH
       },
       backgroundImage: {
-     "font-gradient": 'linear-gradient(90deg, #00CA55 20.69%, #C3FF5A 58.36%)',
+        "font-gradient": 'linear-gradient(90deg, #00CA55 20.69%, #C3FF5A 58.36%)',
       },
       colors: {
         "light-gray": "#e4e4e4",
         "light-white": "#f4f4f4",
+        "dark-white": "#b1b1b1", // EXTEND PLAYERS BRANCH
         "old-silver": "#838383",
         malachite: "#00ca55",
         pigment: "#18a353",
+        pigment_green: "#18A352",
         "sonic-silver": "#787878",
         "bright-gray": "#efefef",
         "blue": "#58b9ff",
