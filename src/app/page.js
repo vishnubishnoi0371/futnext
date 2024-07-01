@@ -1,4 +1,5 @@
 import Footer from "@/components/common/Footer";
+import Solution from "@/components/solutions/Solution";
 import NavBar from "../components/common/NavBar";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
  <>
  <NavBar/>
  <Footer/>
+      <Solution/>
  </>
   );
 }
