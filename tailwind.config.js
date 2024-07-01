@@ -19,9 +19,12 @@ module.exports = {
       },
       backgroundImage: {
      "font-gradient": 'linear-gradient(90deg, #00CA55 20.69%, #C3FF5A 58.36%)',
+     "green-gradient": 'linear-gradient(55.62deg, rgba(0, 202, 85, 0) -12.53%, #00CA55  83.02%)',
+
       },
       colors: {
         "light-gray": "#e4e4e4",
+        "dim-gray": "#6b6b6b",
         "light-white": "#f4f4f4",
         "old-silver": "#838383",
         malachite: "#00ca55",
@@ -31,12 +34,14 @@ module.exports = {
         "blue": "#58b9ff",
         "yellow-green": "#98dd1f",
         green: "#032e16",
+        darkgreen: "#49dd87",
         "silver-sand": "#c3c3c3",
         Purple: "#de8eff",
         mustard: "#cab600",
         "black-olive": "#3b3c3d",
         gray: "#7f7f7f",
         "moss-green": "#35644a",
+        "light-green": "#043F1D",
         "eerie-black": "#17191b",
         "vampire-black": "#0a0b0c",
         "light-sky": "#61CF8F",
