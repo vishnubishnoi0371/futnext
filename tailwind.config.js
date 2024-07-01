@@ -12,6 +12,15 @@ module.exports = {
         "3xxl": "32px",
         "4xxl": "40px",
       },
+      borderWidth: {
+        '1-gradient': '1px',
+      },
+      borderImageSource: {
+        'gradient': 'linear-gradient(182.94deg, #00CA55 -14.15%, rgba(0, 202, 85, 0) 64.09%)',
+      },
+      borderImageSlice: {
+        'gradient': '1',
+      },
       lineHeight: {
         121: "121%",
         100: "100%",

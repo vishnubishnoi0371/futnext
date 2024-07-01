@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className="relative">
       <div className="px-6">
-        <div className="max-w-[784px] translate-y-[20%] sm:translate-y-[40%] mx-auto bg-light-green p-[24px_24px_24px_24px] sm:p-[24px_50px_24px_24px] lg:p-[24px_63px_24px_24px] flex flex-col sm:flex-row justify-between items-center rounded-[32px]">
+        <div className="max-w-[784px] border-gradient  translate-y-[20%] sm:translate-y-[40%] mx-auto bg-light-green p-[24px_24px_24px_24px] sm:p-[24px_50px_24px_24px] lg:p-[24px_63px_24px_24px] flex flex-col sm:flex-row justify-between items-center rounded-[32px]">
           <div className="flex flex-col justify-center items-center sm:items-start sm:justify-start">
             <p className="font-normal text-center sm:text-start text-darkgreen text-sm-13">FUTnext Subscription</p>
             <p className="text-2xl lg:text-3xxl text-center sm:text-start text-white font-semibold max-w-[290px] my-2">Get your subscription today</p>
