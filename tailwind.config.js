@@ -9,12 +9,14 @@ module.exports = {
     extend: {
       fontSize: {
         "sm-13": "13px",
+        "sm-15": "15px",
         "3xxl": "32px",
         "4xxl": "40px",
       },
-    
+
       backgroundImage: {
-     "font-gradient": 'linear-gradient(90deg, #00CA55 20.69%, #C3FF5A 58.36%)',
+        "font-gradient": 'linear-gradient(90deg, #00CA55 20.69%, #C3FF5A 58.36%)',
+        "border-gradient": "linear-gradient(334.48deg, rgba(0, 202, 85, 0) 18.34%, #00CA55 109.47%)"
       },
       colors: {
         "light-gray": "#e4e4e4",
@@ -33,6 +35,9 @@ module.exports = {
         gray: "#7f7f7f",
         "moss-green": "#35644a",
         "eerie-black": "#17191b",
+        "vampire-black": "#0a0b0c",
+        "light-gray1": "#6B6B6B", //trend
+        "dark-green": "#02421D", //trend
 
       },
       boxShadow: {
