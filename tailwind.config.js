@@ -33,6 +33,8 @@ module.exports = {
         gray: "#7f7f7f",
         "moss-green": "#35644a",
         "eerie-black": "#17191b",
+        "vampire-black": "#0a0b0c",
+
       },
       boxShadow: {
         cardShadow: "0 5px 5px 0 #DEDEDE",
