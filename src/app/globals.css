@@ -7,3 +7,6 @@ body {
   font-family: "Inter", sans-serif !important;
   background-image:url('../../public/assets/images/svg/pageLogo.svg');
 }
+.box{ 
+-webkit-mask-composite: xor;
+mask-composite: exclude;}
