@@ -6,7 +6,6 @@
 body {
   font-family: "Inter", sans-serif !important;
 }
-<<<<<<< HEAD
 #recent{
   -webkit-appearance: none; /* Remove default arrow in Chrome, Safari, Edge */
   -moz-appearance: none; /* Remove default arrow in Firefox*/
@@ -15,11 +14,11 @@ body {
   border-radius: 4px; /* Optional: Add border radius */
   position: relative;
 }
-.border-gradient {
+.borderGradient {
   position: relative;
   z-index: 1;
 }
-.border-gradient:after {
+.borderGradient:after {
   content: "";
   position: absolute;
   top: 0;
@@ -27,7 +26,7 @@ body {
   right: 0;
   bottom: 0;
   border: 1px solid transparent;
-  background: linear-gradient(180deg, #7B1F67 -15.63%, #D0215D 100%)border-box;
+  /* background: linear-gradient(180deg, #7B1F67 -15.63%, #D0215D 100%)border-box; */
   -webkit-mask:
     linear-gradient(#fff 0 0) padding-box,
     linear-gradient(#fff 0 0);
@@ -37,8 +36,6 @@ body {
   mask-composite: exclude;
   z-index: -1;
 }
-=======
 .box{ 
 -webkit-mask-composite: xor;
 mask-composite: exclude;}
->>>>>>> abd412ee6b125b0b0918f5ded2e55b1b0211599b

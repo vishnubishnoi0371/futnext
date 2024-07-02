@@ -1,4 +1,5 @@
-import { SearchIcon } from "../Icon";
+import { SbcsList } from "../common/Helper";
+import { SearchIcon } from "../common/Icon";
 import SbcsCards from "./SbcsCards";
 
 export default function SbcsContent() {
@@ -24,9 +25,17 @@ export default function SbcsContent() {
 </div>
         </div>
         <div className="flex flex-row flex-wrap -mx-3">
-<div className="w-1/4 px-3">
-<SbcsCards/>
-</div>
+
+{
+    SbcsList.map((item,i) =>(
+        <div className="w-1/4 px-3">
+            <SbcsCards key={i}  title={item.title} heading={item.heading} cost={item.cost} img={item.img} class={`${item.title==='Exchanges' ? " after:bg-gradient-yellow" : ""}`} ellipsegradient={` ${item.title ==='Exchanges'? ' bg-gradient-yellow':''
+
+            }`}/>
+        </div>
+    )
+    )
+}
         </div>
         </>
     )
