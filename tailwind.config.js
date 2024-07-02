@@ -7,9 +7,7 @@ module.exports = {
   ],
   theme: {
     extend: {
-      boxShadow: {
-        "custom-green": '0_0_500px_700px rgba(0, 128, 0, 0.5)', // Green shadow
-      },
+     
       fontSize: {
         "sm-13": "13px",
         "sm-15": "15px",
@@ -64,10 +62,7 @@ module.exports = {
         "dark-green": "#02421D",
         "light-sky": "#61CF8F",
       },
-      boxShadow: {
-        cardShadow: "0 5px 5px 0 #DEDEDE",
-        xs: "0 0 11px rgba(33,33,33,.2)",
-      },
+    
     },
   },
   plugins: [],

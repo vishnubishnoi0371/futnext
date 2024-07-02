@@ -1,14 +1,13 @@
 
-import Header from "@/components/homepage/Header";
 import Footer from "@/components/common/Footer";
 import NavBar from "../components/common/NavBar";
 import BackToTop from "@/components/common/BackToTop";
-
-export default function Home() {
+import Home from "../pages/Home";
+export default function () {
   return (
  <>
  <NavBar/>
- <Header/>
+ <Home/>
  <Footer/>
  <BackToTop/>
  </>

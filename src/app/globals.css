@@ -6,6 +6,9 @@
 body {
   font-family: "Inter", sans-serif !important;
 }
+.custom-ellipse {
+  border-radius: 267px 0px 0px 0px;
+}
 #recent{
   -webkit-appearance: none; /* Remove default arrow in Chrome, Safari, Edge */
   -moz-appearance: none; /* Remove default arrow in Firefox*/

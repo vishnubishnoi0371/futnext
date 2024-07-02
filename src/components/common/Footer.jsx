@@ -33,16 +33,9 @@ const Footer = () => {
         </div>
       </div>
       <div className="bg-black relative z-10">
-      {/* <Image
-            width={961}
-            height={985}
-            src="/assets/images/webp/bgLayer.webp"
-            alt="graph-img"
-            className="absolute w-[300px] h-[300px]  md:w-[500px] md:h-[600px] sm:w-[600px] sm:h-[600px] !lg:w-[1000px] !lg:h-[900px] top-[-7%] sm:top-0  md:top-[-39%] sm:left-[8%] md:left-[26%] lg:left-[29%]"
-          /> */}
-          <div class="w-[700px] h-[500px] absolute z-40 shadow-custom-green">
-</div>
-        <div className="max-w-[1328px] px-3 mx-auto pt-[154px]">
+        <div className="max-w-[1328px] relative px-3 mx-auto pt-[154px]">
+        <div class="lg:w-[880.13px] lg:h-[308px] md:w-[680.13px] md:left-[13%] md:h-[308px] sm:w-[580.13px] sm:left-[6%]  w-[280.13px] h-[308px] sm:h-[308px]  xl:w-[1081.13px] lg:left-[8%] xl:h-[308px] bg-gradient-green xl:left-[10%] blur-[50px] absolute top-[-2%] z-[-1] left-[%]  "></div>
+
           <div className="relative flex flex-col md:flex-row gap-10 justify-between">
             <div>
               <Link href="#" className="relative max-w-[194px] h-[48px] mb-4">
