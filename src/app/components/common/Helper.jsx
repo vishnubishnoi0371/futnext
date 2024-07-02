@@ -1,11 +1,9 @@
-<<<<<<< HEAD
+
 import coin from '../../../../public/assets/images/svg/coinsImg.svg'
-=======
 import utMoney from '../../../../public/assets/images/svg/ut-money.svg'
 import rightArrow from '../../../../public/assets/images/svg/Arrow-Right.svg'
 import utImg from '../../../../public/assets/images/webp/ut-img.webp'
 
->>>>>>> 2c5545a9b2649e9d5b4f3853d5daf9c4630e12ba
 
 export const navData = [
   {
@@ -34,7 +32,6 @@ export const navData = [
   },
 ];
 
-<<<<<<< HEAD
 export const playersData = [
   {
     title: 'Solution #1',
@@ -181,7 +178,6 @@ export const playersData = [
     img: coin
   },
 ];
-=======
 
 export const trendsData = [
   {
@@ -232,4 +228,3 @@ export const trendsData = [
  
 
 ];
->>>>>>> 2c5545a9b2649e9d5b4f3853d5daf9c4630e12ba

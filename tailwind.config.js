@@ -32,6 +32,10 @@ module.exports = {
           "linear-gradient(90deg, #00CA55 20.69%, #C3FF5A 58.36%)",
         "border-gradient":
           "linear-gradient(334.48deg, rgba(0, 202, 85, 0) 18.34%, #00CA55 109.47%)",
+          "blue-gradient":'linear-gradient(180deg, #58B9FF 0%, rgba(88, 185, 255, 0) 100%)',
+          "purple-gradient":'linear-gradient(180deg, #DE8EFF 0%, rgba(222, 142, 255, 0) 100%)',
+          "grey-gradient":'linear-gradient(180deg, #C3C3C3 0%, rgba(195, 195, 195, 0) 100%)',
+          "musturd-gradient":'linear-gradient(180deg, #CAB600 0%, rgba(202, 182, 0, 0) 100%)'
       },
       colors: {
         "light-gray": "#e4e4e4",
@@ -50,7 +54,7 @@ module.exports = {
         darkgreen: "#49dd87",
         "silver-sand": "#c3c3c3",
         purple: "#de8eff", // Corrected color name to lowercase
-        mustard: "#cab600",
+        mustard: "#CAB600",
         "black-olive": "#3b3c3d",
         gray: "#7f7f7f",
         "moss-green": "#35644a",
@@ -65,6 +69,10 @@ module.exports = {
         cardShadow: "0 5px 5px 0 #DEDEDE",
         xs: "0 0 11px rgba(33,33,33,.2)",
       },
+      screens:{
+        "2xxl":"1380px",
+        "3xxl":"1540px"
+      }
     },
   },
   plugins: [],
