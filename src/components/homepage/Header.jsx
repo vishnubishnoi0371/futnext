@@ -1,4 +1,4 @@
-import { CommonButton } from "../commonbtn";
+import { CommonButton } from "../common/commonbtn";
 import SbcsContent from "./SbcsContent";
 
 export default function Header() {
