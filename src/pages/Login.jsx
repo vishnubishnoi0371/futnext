@@ -1,12 +1,13 @@
 import Inputs from '@/components/login/Inputs'
 import LoginInput from '@/components/login/LoginInput'
-import React from 'react'
+import SignUp from '@/components/login/SignUp'
 
 const Login = () => {
   return (
     <>
     <Inputs/>
     <LoginInput/>
+    <SignUp/>
     </>
   )
 }

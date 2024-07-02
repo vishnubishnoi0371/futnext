@@ -18,6 +18,7 @@ module.exports = {
         121: "121%",
         100: "100%",
         123: "123%",
+        133: "133%",
         155: "155%",
         178: "178%",
         200: "200%",
@@ -40,9 +41,9 @@ module.exports = {
         "light-white": "#f4f4f4",
         "dark-white": "#b1b1b1",
         "old-silver": "#838383",
-        malachite: "#00ca55", // Corrected color name to lowercase
-        pigment: "#18a353",
-        pigment_green: "#18A352",
+        "malachite": "#00ca55", 
+        "pigment": "#18a353",
+        "pigment_green": "#18A352",
         "sonic-silver": "#787878",
         "bright-gray": "#efefef",
         blue: "#58b9ff",
@@ -50,8 +51,8 @@ module.exports = {
         green: "#032e16",
         darkgreen: "#49dd87",
         "silver-sand": "#c3c3c3",
-        purple: "#de8eff", // Corrected color name to lowercase
-        mustard: "#cab600",
+        "purple": "#de8eff", 
+        "mustard": "#cab600",
         "black-olive": "#3b3c3d",
         gray: "#7f7f7f",
         "moss-green": "#35644a",
@@ -61,6 +62,16 @@ module.exports = {
         "light-gray1": "#6B6B6B",
         "dark-green": "#02421D",
         "light-sky": "#61CF8F",
+        "grey-black": "#25282B", // EXTEND PLAYERS BRANCH
+        "light-black": "#585A5C", // EXTEND PLAYERS BRANCH
+
+      },
+      borderWidth: {
+        '1': '1px',
+      },
+      gradientColorStops: {
+        'start-green': '#00CA55',
+        'end-transparent': 'rgba(0, 202, 85, 0)',
       },
     
     },

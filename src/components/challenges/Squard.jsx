@@ -1,9 +1,11 @@
 import { trendsData } from '../common/Helper'
 import Image from 'next/image'
+import CommonHeader from '../players/CommonHeader'
 
 const Squard = () => {
     return (
         <div className='bg-vampire-black pt-[108px]'>
+            <CommonHeader/>
             <div className='container max-w-[1632px] max-md:max-w-[500px] mx-auto px-4'>
                 <h2 className='text-light-white font-semibold text-lg lg:text-2xl leading-[29px] tracking-[-4%] mb-2'>Challenges</h2>
                 <p className='text-light-gray1 font-normal text-xs lg:text-sm leading-[16px] pb-[32px] tracking-[-4%]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </p>
