@@ -1,11 +1,9 @@
-import LoginPage from "@/components/common/login/LoginPage";
-import NavBar from "../components/common/NavBar";
+import LoginPage from "@/components/login/LoginPage";
 
 export default function Home() {
   return (
  <>
- {/* <NavBar/> */}
- <LoginPage/>
+<LoginPage/>
  </>
   );
 }
