@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      boxShadow: {
+        "custom-green": '0_0_500px_700px rgba(0, 128, 0, 0.5)', // Green shadow
+      },
       fontSize: {
         "sm-13": "13px",
         "sm-15": "15px",

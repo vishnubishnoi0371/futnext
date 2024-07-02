@@ -26,13 +26,22 @@ const Footer = () => {
           <Image
             width={195}
             height={205}
-            src="/assets/images/webp/newsletterImg.png"
+            src="/assets/images/webp/newsletterImg.webp"
             alt="graph-img"
             className="mx-auto mt-8 sm:mt-0 md:mx-0"
           />
         </div>
       </div>
-      <div className="bg-black relative">
+      <div className="bg-black relative z-10">
+      {/* <Image
+            width={961}
+            height={985}
+            src="/assets/images/webp/bgLayer.webp"
+            alt="graph-img"
+            className="absolute w-[300px] h-[300px]  md:w-[500px] md:h-[600px] sm:w-[600px] sm:h-[600px] !lg:w-[1000px] !lg:h-[900px] top-[-7%] sm:top-0  md:top-[-39%] sm:left-[8%] md:left-[26%] lg:left-[29%]"
+          /> */}
+          <div class="w-[700px] h-[500px] absolute z-40 shadow-custom-green">
+</div>
         <div className="max-w-[1328px] px-3 mx-auto pt-[154px]">
           <div className="relative flex flex-col md:flex-row gap-10 justify-between">
             <div>
@@ -58,7 +67,7 @@ const Footer = () => {
                 ))}
               </div>
             </div>
-            <ul className="flex justify-center md:justify-start lg:gap-8 flex-wrap items-center">
+            <ul className="flex justify-center md:justify-start mb-10 lg:gap-8 flex-wrap items-center">
               {footerData.slice(0, 5).map((obj, i) => (
                 <li key={i} className="p-[7.5px_16px]">
                   <Link

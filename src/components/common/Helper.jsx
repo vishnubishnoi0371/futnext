@@ -2,28 +2,12 @@ import { Insta, TikTok, Twiter, Discord, Youtube, Multi, Star } from "./Icon";
 
   // =========NavData==========//
 
-export const navData = [
-    {
-      name: "Home",
-      to: "#aboutus",
-    },
-    {
-      name: "SBC",
-      to: "#ourservices",
-    },
-    {
-      name: "Evolutions",
-      to: "#ourservices",
-    },
- 
-    {
-      name: "Packs",
-      to: "#testimonials",
-    },
-    {
-      name: "Subscription",
-      to: "#contactus",
-    },
+  export const navData = [
+    { name: "Home", to: "/" },
+    { name: "SBC", to: "/about" },
+    { name: "Evolution", to: "/services" },
+    { name: "Packs", to: "/contact" },
+    { name: "Subscription", to: "/packs" }, 
   ];
   // =========FooterData==========//
 export const footerData = [
