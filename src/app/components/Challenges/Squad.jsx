@@ -27,11 +27,11 @@ const Squad = () => {
                                         </div>
                                         <p className=' font-medium text-xl leading-[24px] tracking-[-4%] text-light-white mb-3 md:mb-4'>{dataC.object}</p>
                                         <div className='flex items-center gap-2 mb-4'>
-                                            <p className=' bg-dark-green w-[40px] h-[40px] rounded-[20px] flex items-center justify-center font-semibold text-lg tracking-[-4%] leading-[24px] text-malachite'>1</p>
+                                            <p className=' bg-dark-green w-[40px] h-[40px] rounded-[20px] flex items-center justify-center font-semibold text-lg tracking-[-4%] leading-[24px] text-malachite'>{dataC.no1}</p>
                                             <p className=' font-normal text-sm lg:text-base leading-[19px] tracking-[-4%] text-light-gray'>{dataC.rating}</p>
                                         </div>
                                         <div className='flex items-center gap-2 mb-4 md:mb-6 '>
-                                            <p className=' bg-dark-green w-[40px] h-[40px] rounded-[20px] flex items-center justify-center font-semibold text-lg tracking-[-4%] leading-[24px] text-malachite'>2</p>
+                                            <p className=' bg-dark-green w-[40px] h-[40px] rounded-[20px] flex items-center justify-center font-semibold text-lg tracking-[-4%] leading-[24px] text-malachite'>{dataC.no2}</p>
                                             <p className=' font-normal text-sm lg:text-base leading-[19px] tracking-[-4%] text-light-gray'>{dataC.player}</p>
                                         </div>
                                         <button className='flex items-center gap-2 py-2 px-4 bg-pigment rounded-3xl font-normal text-xs lg:text-sm text-light-white h-[48px] border border-transparent hover:bg-transparent hover:border hover:border-white duration-300'>View Solutions <Image src={dataC.arrow} /></button>
