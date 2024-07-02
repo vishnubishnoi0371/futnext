@@ -34,7 +34,7 @@ const Footer = () => {
       </div>
       <div className="bg-black relative z-10">
         <div className="max-w-[1328px] relative px-3 mx-auto pt-[154px]">
-        <div class="lg:w-[880.13px] lg:h-[308px] md:w-[680.13px] md:left-[13%] md:h-[308px] sm:w-[580.13px] sm:left-[6%]  w-[280.13px] h-[308px] sm:h-[308px]  xl:w-[1081.13px] lg:left-[8%] xl:h-[308px] bg-gradient-green xl:left-[10%] blur-[50px] absolute top-[-2%] z-[-1] left-[%]  "></div>
+        <div class="lg:w-[880.13px] lg:h-[308px] md:w-[680.13px] md:left-[13%] md:h-[308px] sm:w-[580.13px] sm:left-[6%]  w-[280.13px] h-[308px] sm:h-[308px]  xl:w-[1081.13px] lg:left-[8%] xl:h-[308px] bg-gradient-green xl:left-[10%] blur-[120px] absolute top-[-2%] z-[-1] left-[%]  "></div>
 
           <div className="relative flex flex-col md:flex-row gap-10 justify-between">
             <div>

@@ -1,5 +1,7 @@
 import { Insta, TikTok, Twiter, Discord, Youtube, Multi, Star } from "./Icon";
-
+import utMoney from '.././../../public/assets/images/svg/utMoney.svg'
+import rightArrow from '../../../public/assets/images/svg/arrowRight.svg'
+import utImg from '../../../public/assets/images/webp/utImage.webp'
   // =========NavData==========//
 
   export const navData = [
@@ -9,7 +11,58 @@ import { Insta, TikTok, Twiter, Discord, Youtube, Multi, Star } from "./Icon";
     { name: "Packs", to: "/contact" },
     { name: "Subscription", to: "/packs" }, 
   ];
+  // =========TrendsData==========//
+  export const trendsData = [
+    {
+      name: "85-Rated Squad",
+      moneyimg: utMoney,
+      money: "13,000 Cost",
+      img: utImg,
+      paraLine: "Three Common Gold Players Pack",
+      object: "Objectives",
+      no1: 1,
+      rating: "Team Rating: Min 85",
+      no2: 2,
+      player: "Min 1 TOTS or TOTW Player",
+      button: "View Solutions",
+      arrow: rightArrow,
+  
+    },
+    {
+      name: "85-Rated Squad",
+      moneyimg: utMoney,
+      money: "13,000 Cost",
+      img: utImg,
+      paraLine: "Three Common Gold Players Pack",
+      object: "Objectives",
+      no1: 1,
+      rating: "Team Rating: Min 85",
+      no2: 2,
+      player: "Min 1 TOTS or TOTW Player",
+      button: "View Solutions",
+      arrow: rightArrow,
+  
+    },
+    {
+      name: "85-Rated Squad",
+      moneyimg: utMoney,
+      money: "13,000 Cost",
+      img: utImg,
+      paraLine: "Three Common Gold Players Pack",
+      object: "Objectives",
+      no1: 1,
+      rating: "Team Rating: Min 85",
+      no2: 2,
+      player: "Min 1 TOTS or TOTW Player",
+      button: "View Solutions",
+      arrow: rightArrow,
+  
+    },
+   
+  
+  ];
   // =========FooterData==========//
+  
 export const footerData = [
     {
       name: "SBC's",
