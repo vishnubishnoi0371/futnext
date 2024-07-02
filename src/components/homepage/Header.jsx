@@ -22,6 +22,7 @@ export default function Header() {
                 <CommonButton onClick={() => openNav("tab2")} text="Packs" className={`text-light-white bg-black-olive p-[14px_20px] md:p-[16px_24px] ${tab === "tab2"? "bg-pigment":""}`}/>
                 <CommonButton onClick={() => openNav("tab3")} text="Recent players" className={`text-light-white bg-black-olive p-[14px_20px] md:p-[16px_24px] ${tab === "tab3"? "bg-pigment":""}`}/>
                 </div>
+                </div>
                 {tab === "tab1" && (
                       <SbcsContent/>
                   )}
@@ -31,9 +32,8 @@ export default function Header() {
                        {tab === "tab3" && (
                 <Player/>
                   )}
-                <img src="/assets/images/svg/headerTriangles.svg" alt="Triangles" className="absolute 2xxl:top-[-10%] top-[-6%] left-[6%] z-[-1]" />
+                <img src="/assets/images/svg/headerTriangles.svg" alt="Triangles" className="absolute 2xxl:top-[-10%] top-[-3%] left-[6%] z-[-1]" />
             </div>
-        </div>
         <div className="w-[1709px] h-[1064px] rounded-full bg-dark-gradient blur-[400px] absolute 2xxl:top-[-35%] top-[-26%] z-[-1] "></div>
         </div>
     )
