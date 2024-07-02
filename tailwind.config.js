@@ -37,7 +37,9 @@ module.exports = {
           "blue-gradient":'linear-gradient(180deg, #58B9FF 0%, rgba(88, 185, 255, 0) 100%)',
           "purple-gradient":'linear-gradient(180deg, #DE8EFF 0%, rgba(222, 142, 255, 0) 100%)',
           "grey-gradient":'linear-gradient(180deg, #C3C3C3 0%, rgba(195, 195, 195, 0) 100%)',
-          "musturd-gradient":'linear-gradient(180deg, #CAB600 0%, rgba(202, 182, 0, 0) 100%)'
+          "musturd-gradient":'linear-gradient(180deg, #CAB600 0%, rgba(202, 182, 0, 0) 100%)',
+         "dark-gradient":"linear-gradient(179.96deg, #00CA55 0.04%, rgba(0, 202, 85, 0) 74.93%)",
+
       },
       colors: {
         "light-gray": "#e4e4e4",
@@ -83,6 +85,9 @@ module.exports = {
       screens:{
         "2xxl":"1380px",
         "3xxl":"1540px"
+      },
+      backgroundSize:{
+        full:"100% 100%"
       }
     },
   },
