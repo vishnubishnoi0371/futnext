@@ -13,7 +13,7 @@ const Squad = () => {
                         return (
                             <div key={index} className=' bg-border-gradient rounded-[32px] p-[1px]'>
                                 <div className='!bg-eerie-black rounded-[32px]'>
-                                    <div className='p-4 md:p-6'>
+                                    <div className='p-4 md:p-6'> 
                                         <div className='flex items-center justify-between pb-6 md:pb-[46px]'>
                                             <h2 className='font-semibold text-lg lg:text-2xl leading-[29px] text-light-white text-nowrap'>{dataC.name}</h2>
                                             <div className='flex items-center gap-2'>
