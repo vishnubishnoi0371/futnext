@@ -39,3 +39,6 @@ body {
 .box{ 
 -webkit-mask-composite: xor;
 mask-composite: exclude;}
+.ellipse-gradient{
+  background: linear-gradient(179.96deg, #00CA55 0.04%, rgba(0, 202, 85, 0) 74.93%);
+}
