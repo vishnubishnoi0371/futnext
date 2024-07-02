@@ -58,3 +58,18 @@ export const rateingList = [
     number: "13,000 Cost",
   },
 ];
+
+export const SbcsList = [
+  {
+  title:'Upgrades',
+  heading:'Weekly 90+ TOTS Player Pick',
+  cost:'13,000 Cost',
+  img:'/assets/images/webp/upgradeshield1.webp'
+  },
+  {
+    title:'Exchanges',
+    heading:'Hybrid Leagues',
+    cost:'12,000 Cost',
+    img:'/assets/images/webp/exchangeshield.webp'
+    }
+]
