@@ -6,6 +6,42 @@
 body {
   font-family: "Inter", sans-serif !important;
 }
+.custom-ellipse {
+  border-radius: 267px 0px 0px 0px;
+}
+#recent{
+  -webkit-appearance: none; /* Remove default arrow in Chrome, Safari, Edge */
+  -moz-appearance: none; /* Remove default arrow in Firefox*/
+   appearance: none; /*Remove default arrow */
+  background: transparent; /* Ensure the background is transparent */
+  border-radius: 4px; /* Optional: Add border radius */
+  position: relative;
+}
+.borderGradient {
+  position: relative;
+  z-index: 1;
+}
+.borderGradient:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 1px solid transparent;
+  /* background: linear-gradient(180deg, #7B1F67 -15.63%, #D0215D 100%)border-box; */
+  -webkit-mask:
+    linear-gradient(#fff 0 0) padding-box,
+    linear-gradient(#fff 0 0);
+  mask: linear-gradient(#fff 0 0) padding-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: destination-out;
+  mask-composite: exclude;
+  z-index: -1;
+}
 .box{ 
 -webkit-mask-composite: xor;
 mask-composite: exclude;}
+.ellipse-gradient{
+  background: linear-gradient(179.96deg, #00CA55 0.04%, rgba(0, 202, 85, 0) 74.93%);
+}

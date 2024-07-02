@@ -1,25 +1,24 @@
 import { Insta, TikTok, Twiter, Discord, Youtube, Multi, Star } from "./Icon";
 
+// export const navData = [
+//   {
+//     name: "Home",
+//     to: "#aboutus",
+//   },
+//   {
+//     name: "SBC",
+//     to: "#ourservices",
+//   },
 
-export const navData = [
-  {
-    name: "Home",
-    to: "#aboutus",
-  },
-  {
-    name: "SBC",
-    to: "#ourservices",
-  },
-
-  {
-    name: "Packs",
-    to: "#testimonials",
-  },
-  {
-    name: "Subscription",
-    to: "#contactus",
-  },
-];
+//   {
+//     name: "Packs",
+//     to: "#testimonials",
+//   },
+//   {
+//     name: "Subscription",
+//     to: "#contactus",
+//   },
+// ];
 
 
 // =======================PLAYERS BRANCH========================
@@ -147,6 +146,70 @@ export const playersData = [
 ];
 
 // ====================================FOOTER=================================
+import utMoney from '.././../../public/assets/images/svg/utMoney.svg'
+import rightArrow from '../../../public/assets/images/svg/arrowRight.svg'
+import utImg from '../../../public/assets/images/webp/utImage.webp'
+  // =========NavData==========//
+
+  export const navData = [
+    { name: "Home", to: "/" },
+    { name: "SBC", to: "/about" },
+    { name: "Evolution", to: "/services" },
+    { name: "Packs", to: "/contact" },
+    { name: "Subscription", to: "/packs" }, 
+  ];
+  // =========TrendsData==========//
+  export const trendsData = [
+    {
+      name: "85-Rated Squad",
+      moneyimg: utMoney,
+      money: "13,000 Cost",
+      img: utImg,
+      paraLine: "Three Common Gold Players Pack",
+      object: "Objectives",
+      no1: 1,
+      rating: "Team Rating: Min 85",
+      no2: 2,
+      player: "Min 1 TOTS or TOTW Player",
+      button: "View Solutions",
+      arrow: rightArrow,
+  
+    },
+    {
+      name: "85-Rated Squad",
+      moneyimg: utMoney,
+      money: "13,000 Cost",
+      img: utImg,
+      paraLine: "Three Common Gold Players Pack",
+      object: "Objectives",
+      no1: 1,
+      rating: "Team Rating: Min 85",
+      no2: 2,
+      player: "Min 1 TOTS or TOTW Player",
+      button: "View Solutions",
+      arrow: rightArrow,
+  
+    },
+    {
+      name: "85-Rated Squad",
+      moneyimg: utMoney,
+      money: "13,000 Cost",
+      img: utImg,
+      paraLine: "Three Common Gold Players Pack",
+      object: "Objectives",
+      no1: 1,
+      rating: "Team Rating: Min 85",
+      no2: 2,
+      player: "Min 1 TOTS or TOTW Player",
+      button: "View Solutions",
+      arrow: rightArrow,
+  
+    },
+   
+  
+  ];
+  // =========FooterData==========//
+  
 export const footerData = [
   {
     name: "SBC's",
@@ -195,4 +258,20 @@ export const rateingList = [
     icon: '',
     number: "13,000 Cost",
   },
+
 ];
+
+export const SbcsList = [
+  {
+  title:'Upgrades',
+  heading:'Weekly 90+ TOTS Player Pick',
+  cost:'13,000 Cost',
+  img:'/assets/images/webp/upgradeshield1.webp'
+  },
+  {
+    title:'Exchanges',
+    heading:'Hybrid Leagues',
+    cost:'12,000 Cost',
+    img:'/assets/images/webp/exchangeshield.webp'
+    }
+]

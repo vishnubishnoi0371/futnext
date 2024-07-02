@@ -50,33 +50,33 @@ const Generated = () => {
                             )
                         })}
                     </div>
-                    <div class="flex justify-center rounded-[16px] gap-4 self-center items-center mx-auto mt-[56px] bg-grey-black h-[56px] w-[374px]">
+                    <div className="flex justify-center rounded-[16px] gap-4 self-center items-center mx-auto mt-[56px] bg-grey-black h-[56px] w-[374px]">
                         <div
-                            class="w-[24px] cursor-pointer duration-300 group h-[24px] rounded flex justify-center items-center hover:bg-dark-gray2">
+                            className="w-[24px] cursor-pointer duration-300 group h-[24px] rounded flex justify-center items-center hover:bg-dark-gray2">
                             <TabArrowLeft />
                         </div>
                         <div
-                            class="w-[40px] cursor-pointer duration-200 h-[40px] group hover:bg-light-black rounded flex justify-center items-center">
-                            <p class=" font-normal text-sm text-white opacity-60 group-hover:opacity-100 duration-200">1</p>
+                            className="w-[40px] cursor-pointer duration-200 h-[40px] group hover:bg-light-black rounded flex justify-center items-center">
+                            <p className=" font-normal text-sm text-white opacity-60 group-hover:opacity-100 duration-200">1</p>
                         </div>
                         <div
-                            class="w-[40px] cursor-pointer duration-300 h-[40px] rounded flex group hover:bg-light-black justify-center items-center">
-                            <p class=" font-normal text-sm text-white opacity-60 group-hover:opacity-100 duration-200">2</p>
+                            className="w-[40px] cursor-pointer duration-300 h-[40px] rounded flex group hover:bg-light-black justify-center items-center">
+                            <p className=" font-normal text-sm text-white opacity-60 group-hover:opacity-100 duration-200">2</p>
                         </div>
                         <div
-                            class="w-[40px] cursor-pointer duration-300 h-[40px] rounded group hover:bg-light-black flex justify-center items-center">
-                            <p class=" font-normal text-sm text-white opacity-60 group-hover:opacity-100 duration-200">3</p>
+                            className="w-[40px] cursor-pointer duration-300 h-[40px] rounded group hover:bg-light-black flex justify-center items-center">
+                            <p className=" font-normal text-sm text-white opacity-60 group-hover:opacity-100 duration-200">3</p>
                         </div>
                         <div
-                            class="w-[40px] cursor-pointer duration-300 h-[40px] rounded flex group hover:bg-light-black justify-center items-center">
-                            <p class=" font-normal text-sm text-white opacity-60 group-hover:opacity-100 duration-200">4</p>
+                            className="w-[40px] cursor-pointer duration-300 h-[40px] rounded flex group hover:bg-light-black justify-center items-center">
+                            <p className=" font-normal text-sm text-white opacity-60 group-hover:opacity-100 duration-200">4</p>
                         </div>
                         <div
-                            class="w-[40px] cursor-pointer duration-300 h-[40px] rounded flex group hover:bg-light-black justify-center items-center">
-                            <p class=" font-normal text-sm text-white opacity-60 group-hover:opacity-100 duration-200">5</p>
+                            className="w-[40px] cursor-pointer duration-300 h-[40px] rounded flex group hover:bg-light-black justify-center items-center">
+                            <p className=" font-normal text-sm text-white opacity-60 group-hover:opacity-100 duration-200">5</p>
                         </div>
                         <div
-                            class="w-[24px] cursor-pointer duration-200 h-[24px] group rounded flex justify-center items-center group">
+                            className="w-[24px] cursor-pointer duration-200 h-[24px] group rounded flex justify-center items-center group">
                             <TabArrowRight />
                         </div>
                     </div>

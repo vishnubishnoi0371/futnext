@@ -26,14 +26,16 @@ const Footer = () => {
           <Image
             width={195}
             height={205}
-            src="/assets/images/webp/newsletterImg.png"
+            src="/assets/images/webp/newsletterImg.webp"
             alt="graph-img"
             className="mx-auto mt-8 sm:mt-0 md:mx-0"
           />
         </div>
       </div>
-      <div className="bg-black relative">
-        <div className="max-w-[1328px] px-3 mx-auto pt-[154px]">
+      <div className="bg-black relative z-10">
+        <div className="max-w-[1328px] relative px-3 mx-auto pt-[154px]">
+        <div class="lg:w-[880.13px] lg:h-[308px] md:w-[680.13px] md:left-[13%] md:h-[308px] sm:w-[580.13px] sm:left-[6%]  w-[280.13px] h-[308px] sm:h-[308px]  xl:w-[1081.13px] lg:left-[8%] xl:h-[308px] bg-gradient-green xl:left-[10%] blur-[120px] absolute top-[-2%] z-[-1] left-[%]  "></div>
+
           <div className="relative flex flex-col md:flex-row gap-10 justify-between">
             <div>
               <Link href="#" className="relative max-w-[194px] h-[48px] mb-4">
@@ -58,7 +60,7 @@ const Footer = () => {
                 ))}
               </div>
             </div>
-            <ul className="flex justify-center md:justify-start lg:gap-8 flex-wrap items-center">
+            <ul className="flex justify-center md:justify-start mb-10 lg:gap-8 flex-wrap items-center">
               {footerData.slice(0, 5).map((obj, i) => (
                 <li key={i} className="p-[7.5px_16px]">
                   <Link
