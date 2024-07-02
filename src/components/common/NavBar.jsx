@@ -45,7 +45,8 @@ const NavBar = () => {
                 <li key={i} className="relative group">
                   {obj.name === "Packs" ? (
                     <>
-                      <button
+                      <Link
+                        href={obj.to}
                         className="font-normal hover:bg-moss-green rounded-[36px] p-[7.5px_16px] text-xs lg:text-sm block duration-300 text-light-white relative z-[1] after:absolute after:w-0 leading-121 after:h-[2px] after:left-[50%] after:bottom-[-2px] hover:after:left-0 hover:after:w-full after:bg-gold after:duration-300 after:z-[-1] flex items-center"
                         onClick={toggleDropdown}
                       >
@@ -56,7 +57,7 @@ const NavBar = () => {
                         >
                           <NavArrow />
                         </span>
-                      </button>
+                      </Link>
                       {dropdownVisible && (
                         <ul className="absolute left-0 mt-2 w-[86px] text-center bg-light-sky border border-gray-200 rounded-lg shadow-lg z-50">
                           <li className="p-2 hover:bg-gray-200">
