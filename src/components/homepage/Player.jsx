@@ -25,7 +25,7 @@ export default function Player() {
         </div>
         <div className="flex flex-row flex-wrap -mx-3 justify-center">
         {images.map((_, index) => (
-        <div className=" 3xxl:!w-1/8 lg:w-1/6 sm:w-1/4 w-1/3 flex justify-center px-3">
+        <div className=" 3xxl:!w-1/8 lg:w-1/6 sm:w-1/4 w-1/3 flex justify-center px-3 mb-8">
             <img
               key={index}
               src="/assets/images/webp/playerImg.webp"
