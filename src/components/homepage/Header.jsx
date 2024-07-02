@@ -32,7 +32,7 @@ export default function Header() {
                        {tab === "tab3" && (
                 <Player/>
                   )}
-                <img src="/assets/images/svg/headerTriangles.svg" alt="Triangles" className="absolute 2xxl:top-[-10%] top-[-3%] left-[6%] z-[-1]" />
+                <img src="/assets/images/svg/headerTriangles.svg" alt="Triangles" className="absolute  top-[-3%] left-[25%] z-[-1]" />
             </div>
         <div className="w-[1709px] h-[1064px] rounded-full bg-dark-gradient blur-[400px] absolute 2xxl:top-[-35%] top-[-26%] z-[-1] "></div>
         </div>
